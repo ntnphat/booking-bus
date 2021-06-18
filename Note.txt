@@ -1,0 +1,58 @@
+*Buổi 1
+    - Components
+    - Modules
+
+
+AppModule
+    Baitap2Module
+    baitap2Component
+        - baitap2-header
+        - baitap2-carousel
+        - baitap2-wwd
+        - baitap2-contact
+        - baitap2-listcard
+            - baitap2-card
+        -baitap2-footer
+
+npm install jquery poper.js bootstrap@4.3.1 --save
+
+* Baitap3Module
+    Baitap3Component
+    Baitap3Header
+    Baitap3Carousel
+
+    - DataBinding
+        + OnewayBinding
+            . Text Interpolation
+            . Property Binding
+            . Event Binding
+
+    rendering elements
+    ng serve --o
+    ng g m tenApp
+    ng g c tenApp --moudle=ten-app
+
+* Buổi 2
+    - DataBinding
+        + TwowayBinding
+    - Directive
+        + structural-directive
+            + ngIf
+            + ngSwitch
+            + ngFor
+        + attribute-directive
+            + ngClass
+            + ngStyle
+            + attribute directive (tự định nghĩa)
+
+* Buổi 3
+    - Interaction
+        + Input
+        + Output
+        + Viewchild
+        + Viewchildren
+
+* Buổi 4
+    - Routing:
+        + Routing Component
+        + Routing Module
